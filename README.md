@@ -1,6 +1,6 @@
 # Javalin Demo
 
-Projeto desenvolvido utilizando o framework web `Javalin`. Para mais informações, acesse a documentação oficial do projeto: [Javalin Docs](https://javalin.io/documentation/)
+Projeto desenvolvido utilizando o framework web `Javalin`. Para mais informações, acesse a documentação oficial do projeto: [Javalin Docs](https://javalin.io/documentation)
 
 ## Dependências
 
@@ -13,5 +13,5 @@ Projeto desenvolvido utilizando o framework web `Javalin`. Para mais informaçõ
 - Consumir o endpoint `Hello World`
 
 ```bash
-http GET ":7070/"
+http GET ":7070"
 ```
