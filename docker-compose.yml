@@ -1,0 +1,16 @@
+services:
+  javalin-app:
+    platform: linux/x86_64
+    image: javalin-app
+    container_name: javalin-app-container
+    build:
+      context: .
+      dockerfile: ./Dockerfile.dev
+    networks:
+      - javalin_network
+    ports:
+      - '7070:7070'
+
+networks:
+  javalin_network:
+    driver: bridge
